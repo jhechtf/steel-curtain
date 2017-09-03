@@ -13,4 +13,4 @@ Steel Curtain is a small mod for the game [Factorio](https://factorio.com/). It 
   There is one technology that I just _had_ to modify given the chance. The portable solar items. Seriously, those were terrible.
 
 * Portable Solar Panel Power increased from something weak as shit to 1MW. I will probably play around with this number later. 
- * Yes, I am aware that it makes the item better than the initial Portable Fusion Reactor. I don't care.
+  * Yes, I am aware that it makes the item better than the initial Portable Fusion Reactor. I don't care.
