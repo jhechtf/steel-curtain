@@ -1,0 +1,10 @@
+{
+  "name": "Steel-Curtain",
+  "version": "0.1.0",
+  "title": "Steel Curtain",
+  "contact": "jhechtf+factorio@gmail.com",
+  "author": "jhecht",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=27550&p=174324#p174324",
+  "description": "Adds in some assorted adjustments to improve late-game functioning",
+  "factorio_version": "0.15"
+}
