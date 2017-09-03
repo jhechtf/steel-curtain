@@ -87,5 +87,29 @@ data:extend({
       },
       power = "20MW",
       categories = {"armor"}
-    }
+    },
+    {
+    type = "solar-panel-equipment",
+    name = "solar-panel-equipment",
+    sprite =
+    {
+      filename = "__base__/graphics/equipment/solar-panel-equipment.png",
+      width = 32,
+      height = 32,
+      priority = "medium"
+    },
+    shape =
+    {
+      width = 1,
+      height = 1,
+      type = "full"
+    },
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "primary-output"
+    },
+    power = "1MW",
+    categories = {"armor"}
+  }
   })

@@ -28,22 +28,22 @@ data:extend({
     {
       {
         type = "physical",
-        decrease = 10,
-        percent = 60
+        decrease = 50,
+        percent = 90
       },
       {
         type = "acid",
-        decrease = 10,
-        percent = 60
+        decrease = 50,
+        percent = 90
       },
       {
         type = "explosion",
-        decrease = 60,
-        percent = 70
+        decrease = 50,
+        percent = 90
       },
       {
         type = "fire",
-        decrease = 0,
+        decrease = 50,
         percent = 90
       }
     },
