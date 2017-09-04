@@ -1,8 +1,9 @@
 data:extend({
+    --Steel Wall Update
   {
     type = "item",
     name = "steel-wall",
-    icon = "__base__/graphics/icons/stone-wall.png",
+    icon = "__Steel-Curtain__/graphics/steel-wall.png",
     flags = {"goes-to-quickbar"},
     subgroup = "defensive-structure",
     order = "a[steel-wall]-a[steel-wall]",
@@ -22,7 +23,7 @@ data:extend({
   {
     type = "armor",
     name = "power-armor-mk3",
-    icon = "__base__/graphics/icons/power-armor-mk2.png",
+    icon = "__Steel-Curtain__/graphics/power-armor-mk3.png",
     flags = {"goes-to-main-inventory"},
     resistances =
     {
@@ -52,7 +53,7 @@ data:extend({
     order = "e[power-armor-mk3]",
     stack_size = 1,
     equipment_grid = "extra-large-equipment-grid",
-    inventory_size_bonus = 100
+    inventory_size_bonus = 200
   },
     {
     type = "item",

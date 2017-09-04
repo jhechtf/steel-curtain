@@ -1,4 +1,5 @@
 data:extend({
+    --Recipe for the Steel Wall
   {
     type="recipe",
       name="steel-wall",
@@ -9,15 +10,18 @@ data:extend({
       },
       result="steel-wall"
   },
+    --Recipe for the power armor mk3
   {
     type = "recipe",
     name = "power-armor-mk3",
     enabled = false,
     energy_required = 25,
-    ingredients = {{ "power-armor-mk2", 2}, {"processing-unit", 5}},
+    ingredients = {{ "power-armor-mk2", 1}, {"processing-unit", 5}, {"advanced-circuit", 10}},
     result = "power-armor-mk3",
     requester_paste_multiplier = 1
-  },{
+  },
+    --recipe for pew pew laser gun
+    {
     type = "recipe",
     name = "personal-laser-defense-equipment-mk2",
     enabled = false,
@@ -29,6 +33,7 @@ data:extend({
     },
     result = "personal-laser-defense-equipment-mk2"
   },
+    --Recipe for level 2 fusion reactors.
     {
     type = "recipe",
     name = "fusion-reactor-equipment-mk2",
@@ -36,7 +41,8 @@ data:extend({
     energy_required = 30,
     ingredients =
     {
-      {"fusion-reactor-equipment", 2}
+      {"fusion-reactor-equipment", 2},
+      {"advanced-circuit", 5}
     },
     result = "fusion-reactor-equipment-mk2"
   }

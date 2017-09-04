@@ -11,22 +11,22 @@ data:extend({
     },
     shape =
     {
-      width = 1,
-      height = 1,
+      width = 2,
+      height = 2,
       type = "full"
     },
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      buffer_capacity = "120kJ"
+      buffer_capacity = "240kJ"
     },
     attack_parameters =
     {
       type = "projectile",
       ammo_category = "electric",
       cooldown = 20,
-      damage_modifier = 50,
+      damage_modifier = 45,
       projectile_center = {0, 0},
       projectile_creation_distance = 0.6,
       range = 30,
@@ -35,7 +35,7 @@ data:extend({
       {
         type = "projectile",
         category = "electric",
-        energy_consumption = "100kJ",
+        energy_consumption = "200kJ",
         projectile = "laser",
         speed = 2,
         action =
