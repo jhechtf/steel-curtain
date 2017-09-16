@@ -1,4 +1,18 @@
 data:extend({
+    -- Recipe for roboport mks
+    {
+    type = "recipe",
+    name = "roboport-mk2",
+    enabled = false,
+    ingredients =
+    {
+      {"roboport", 1},
+      {"iron-gear-wheel", 45},
+      {"advanced-circuit", 45}
+    },
+    result = "roboport-mk2",
+    energy_required = 5
+  },
     --Recipe for the Steel Wall
   {
     type="recipe",

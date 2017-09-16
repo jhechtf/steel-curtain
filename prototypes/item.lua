@@ -12,6 +12,16 @@ data:extend({
   },
     {
     type = "item",
+    name = "roboport-mk2",
+    icon = "__base__/graphics/icons/roboport.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "logistic-network",
+    order = "c[signal]-a[roboport]",
+    place_result = "roboport-mk2",
+    stack_size = 10
+  },
+    {
+    type = "item",
     name = "personal-laser-defense-equipment-mk2",
     icon = "__base__/graphics/icons/personal-laser-defense-equipment.png",
     placed_as_equipment_result = "personal-laser-defense-equipment-mk2",

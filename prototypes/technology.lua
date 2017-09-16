@@ -22,6 +22,35 @@ data:extend({
   },
     {
     type = "technology",
+    name = "improved-roboports",
+    icon = "__base__/graphics/technology/construction-robotics.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "roboport-mk2"
+      },
+      {
+        type = "worker-robot-speed",
+        modifier = 1.5
+      }
+    },
+    prerequisites = {"construction-robotics"},
+    unit =
+    {
+      count = 100,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
+      },
+      time = 15
+    },
+    order = "c-k-a",
+  },
+    {
+    type = "technology",
     name = "power-armor-upgrades",
     icon = "__base__/graphics/technology/power-armor-mk2.png",
     prerequisites= {"power-armor-2", "personal-laser-defense-equipment"},
