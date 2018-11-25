@@ -3,6 +3,9 @@ godzillabiterscale = 1.5;
 godzilla_biter_tint1 = {r=0.8, g=0.1, b=0.8, a=0.75}
 godzilla_biter_tint2 = {r=0.88, g=0.24, b=0.24, a=0.9}
 
+godzillaspitterscale = 1.5;
+godzilla_spitter_tint1 = {r=0.8, g=0.1, b=0.8, a=0.75}
+godzilla_spitter_tint2 = {r=0.88, g=0.24, b=0.24, a=0.9}
 
 data:extend({
     {
