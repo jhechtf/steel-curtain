@@ -1,3 +1,4 @@
+image: 
 stages:
   - build
 
@@ -10,4 +11,4 @@ stages:
     - master
   script:
     - mkdir -p builds
-    - git archive --format=zip --output=builds/$CI_COMMIT_SHA
+    - git archive --format=zip --output=builds/${CI_COMMIT_SHA}.zip master
