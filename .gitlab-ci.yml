@@ -1,0 +1,13 @@
+stages:
+  - build
+
+"Zip":
+  stage: build
+  artifacts:
+    paths:
+      - builds
+  only: 
+    - master
+  script:
+    - mkdir -p builds
+    - git archive --format=zip --output=builds/$CI_COMMIT_SHA
