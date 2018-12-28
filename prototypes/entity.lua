@@ -1,13 +1,21 @@
 data:extend({
     {
+      -- it's a roboport
     type = "roboport",
+    -- good a name as any
     name = "roboport-mk2",
+    -- I am not good at making images, so we're just gonna use the same one as before
     icon = "__base__/graphics/icons/roboport.png",
     flags = {"placeable-player", "player-creation"},
+    -- mining one of these will result in a roboport-mk2. Weird, right?
     minable = {hardness = 0.2, mining_time = 0.5, result = "roboport-mk2"},
+    -- pretty sturdy
     max_health = 1000,
+    -- if it goes kaboom, it goes kaboom good
     corpse = "big-remnants",
+    -- shrink it down a bit
     collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
+    -- but let it be big
     selection_box = {{-2, -2}, {2, 2}},
     resistances =
     {
@@ -30,7 +38,7 @@ data:extend({
     },
     recharge_minimum = "20MJ",
     energy_usage = "100kW",
-    -- per one charge slot
+    -- per one charge slot (I'm not sure which line this is referring to?)
     charging_energy = "1200kW",
     logistics_radius = 55,
     construction_radius = 95,
